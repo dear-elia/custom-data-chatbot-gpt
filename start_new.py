@@ -5,7 +5,7 @@ from llama_index.llms.openai import OpenAI
 import openai
 from llama_index.core import SimpleDirectoryReader
 
-openai.api_key = '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';
+openai.api_key = 'YOUR API KEY';
 st.header("Chat with the Pai Chai chatbot 💬 📚")
 
 if "messages" not in st.session_state.keys(): # Initialize the chat message history
